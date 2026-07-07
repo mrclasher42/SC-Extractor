@@ -4,9 +4,16 @@ Decompress Supercell .sc and .csv files.
 
 ## Install
 
+```bash
 pip install -r requirements.txt
+```
+# Usage
 
-## Usage
+```bash
+python sc_extractor.py -i /path/to/file.sc -o /path/to/output/
+python sc_extractor.py -i /path/to/folder/ -o /path/to/output/
+```
+# Example
 
-python sc_extractor.py -i file.sc -o output/
-python sc_extractor.py -i folder/ -o output/
+```bash
+python sc_extractor.py -i /sdcard/Download/abilities.csv -o ./output/
