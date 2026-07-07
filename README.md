@@ -17,3 +17,7 @@ python sc_extractor.py -i /path/to/folder/ -o /path/to/output/
 
 ```bash
 python sc_extractor.py -i /sdcard/Download/abilities.csv -o ./output/
+```
+Output
+
+Files are saved with the same name (no extra extensions)
