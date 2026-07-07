@@ -1,9 +1,14 @@
 # SC-Extractor
 
 Decompress Supercell .sc and .csv files.
+# Clone
 
+```bash
+git clone https://github.com/mrclasher42/SC-Extractor.git
+cd SC-Extractor
 ## Install
-
+```
+# Install
 ```bash
 pip install -r requirements.txt
 ```
