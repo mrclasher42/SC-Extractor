@@ -26,14 +26,14 @@ def process(input_path, output_dir):
                 if file.endswith('.sc') or file.endswith('.csv'):
                     in_file = os.path.join(root, file)
                     rel_path = os.path.relpath(in_file, input_path)
-                    out_file = os.path.join(output_dir, rel_path + '.decrypted')
+                    out_file = os.path.join(output_dir, rel_path + '')
                     out_dir = os.path.dirname(out_file)
                     if not os.path.exists(out_dir):
                         os.makedirs(out_dir)
                     decompress_file(in_file, out_file)
     else:
         base = os.path.basename(input_path)
-        out_file = os.path.join(output_dir, base + '.decrypted')
+        out_file = os.path.join(output_dir, base + '')
         decompress_file(input_path, out_file)
 
 if __name__ == '__main__':
