@@ -6,7 +6,6 @@ Decompress Supercell .sc and .csv files.
 ```bash
 git clone https://github.com/mrclasher42/SC-Extractor.git
 cd SC-Extractor
-## Install
 ```
 # Install
 ```bash
@@ -25,4 +24,4 @@ python sc_extractor.py -i /sdcard/Download/abilities.csv -o ./output/
 ```
 # Output
 
-Files are saved with the same name (no extra extensions)
+Files are saved with the same name.
